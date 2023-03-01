@@ -1,0 +1,252 @@
+.menu-active{
+    opacity: 1;
+    transform: translateY(0%);
+    pointer-events: all;
+}
+
+.menu{
+    width: 100%;
+    height: 90rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 60;
+    pointer-events: none;
+    .container {
+        padding-top: 9.6rem;
+        backdrop-filter: blur(1.2rem);
+        background: linear-gradient(180deg, #020203 0%, rgba(14, 17, 23, 0.92) 96.35%, rgba(14, 17, 23, 0.9) 100%);
+        margin: 0 auto;
+    }
+    .head{
+        background-image: url(../img/back-icons.png);
+        background-position: center center;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 8.7rem 9rem;
+        margin: 0 auto;
+        padding-top: 3.8rem;
+        padding-bottom: 5.5rem;
+        button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+
+            }
+            span{
+                display: block;
+                text-align: center;
+                font-weight: 500;
+                font-size: 1.4rem;
+                line-height: 120%;
+                color: #9D9D9D;
+            }
+
+        }
+    }
+    
+    .rodape {
+        display: flex;
+        background-image: url(../img/back-rodape.png);
+        background-position: center center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        background-color: rgba(21, 23, 27, 0.7);
+        ul{
+            display: flex;
+            li {
+                display: flex;
+                align-items: center;
+                margin: 0 44px;
+                img {
+                    max-width: 100%;
+                    display: block;
+                }
+                span {
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
+    
+    
+
+.menu2{
+    width: 100%;
+    height: 90rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 60;
+    pointer-events: none;
+    .container {
+        padding-top: 9.6rem;
+        backdrop-filter: blur(1.2rem);
+        background: linear-gradient(180deg, #020203 0%, rgba(14, 17, 23, 0.92) 96.35%, rgba(14, 17, 23, 0.9) 100%);
+        margin: 0 auto;
+
+        .head{
+            background-image: url(../img/back-icons.png);
+            background-position: center center;
+            background-size: cover;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 8.7rem 9rem;
+            margin: 0 auto;
+            padding-top: 3.8rem;
+            padding-bottom: 5.5rem;
+            button {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    display: f;
+                }
+                span {
+                    display: block;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 1.4rem;
+                    line-height: 120%;
+                    color: #9D9D9D;
+                }
+            }
+        }
+    }
+    
+    .rodape {
+        display: flex;
+        background-image: url(../img/back-rodape.png);
+        background-position: center center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        background-color: rgba(21, 23, 27, 0.7);
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                max-width: 100%;
+            }
+            span {
+                font-weight: 600;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                text-align: center;
+                color: #FFFFFF;
+                margin-left: 1rem;
+            }
+        }
+    }
+}   
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s;
+    z-index: 99;
+    visibility: hidden;
+    height: 100%;
+    
+    .login_content{
+        width: 69.8rem;
+        height: 60rem;
+        background-image: url(../img/login-baner.png);
+        background-position: left left;
+        background-size: cover;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        button{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+        }
+        .botao {
+        padding: 1rem 1rem;
+        background: #00AEFF;
+        border: 0rem;
+        border-radius: 0.4rem;
+        display: flex;
+        }
+        input {
+            height: 4.8rem;
+            width: 42.6rem;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+            color: #363842;
+            border-radius: 0.4rem;
+            padding-left: 1.6rem;
+            margin-bottom: 1.6rem;
+            border: 0;
+        }
+        img{
+            margin: 0 auto;
+        }
+        .bn_Logo{
+            padding-bottom: 4rem;
+        }
+        a {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.1rem;
+        }
+        #conect{
+            margin-top: 0.8rem;
+            width: 42.6rem;
+            justify-content: center;
+            transition: 0s;
+        }
+        a {
+            .logos {
+                margin-top: 4rem;
+            }
+        }
+        p{
+            padding-top: 4.1rem;
+            padding-bottom: 1.6rem;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 500;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+           
+            &:first-of-type{
+                
+                font-size: 1.4rem;
+                line-height: 2.1rem;
+            }
+        }
+        .login_a{
+            font-size: 1.6rem;
+            line-height: 2.4rem;  
+            text-decoration: underline;
+            color: #00AEFF;
+            
+        }
+
+    }
+}

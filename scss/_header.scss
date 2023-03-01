@@ -1,0 +1,131 @@
+header {
+    top: 0;
+    left: 0;
+    @media (max-width:1100px){
+        nav {
+            display: none!important;
+        }
+        .left {
+            img{
+                width: 8.6rem!important;
+            }
+            ul {
+            }
+        }
+        .none {
+            display: flex!important;
+            left: 40px;
+        }
+    }
+    @media (max-width:722px){
+        .none{
+            display: flex!important;
+            left: 60px;
+            position: absolute;
+        }
+    }
+    .container {
+        margin: 0 auto;
+        padding: 0 0;
+     
+    }
+    height: 9.6rem;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 70;
+    .container {
+        z-index: 70;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: -159px;
+        nav {
+            margin-left: 7.6rem;
+            
+        }
+        img {
+            max-width: 100%;
+            position: relative;
+            display: block;
+            
+        }
+        &::after{
+            content: "";
+                width: 4.3rem;
+                border-top:0.19rem solid #00AEFF;
+                position: absolute;
+                bottom: -31px;
+            }
+            
+            ul {
+                display: flex;
+                align-items: center;
+            li {
+                margin-left: 3.5rem;
+                font-weight: 1900;
+                font-size: 1.4rem;
+            }
+            .seta1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    margin-left: 13px;
+                }
+            }
+            .seta2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    margin-left: 13px;
+                }
+            }
+        }
+        
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: -157px;
+        .btn {
+            border: 1px solid transparent;
+            font-size: 1.4rem;
+            border-radius: 0.4rem;
+            border: 1px solid ;
+        }
+        .criar {
+            padding: 12px 23px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        .logar {
+            margin-left: 16px;
+            padding: 12px 21px;
+            border: #00AEFF;
+            background-color: #00AEFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+        .none {
+            display: none;
+            position: relative;
+            right: 50px;
+        }
+
+    }
+}
